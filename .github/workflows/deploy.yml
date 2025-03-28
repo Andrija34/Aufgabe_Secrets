@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Geheimes Secret verwenden
-        run: echo "Mein geheimes Secret ist ${{ secrets.MY_SECRET_KEY }}"
+        run: echo "Mein geheimes Secret ist ${{ secrets.MEIN_GEHEIMNIS }}"
